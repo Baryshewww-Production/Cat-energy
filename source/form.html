@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+	 <meta charset="UTF-8">
+	 <meta name="viewport"
+				 content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <title>Document</title>
+</head>
+
+<body>
+<header class="page-header">
+	 <nav class="page-nav">
+			<div class="container">
+				 <div class="page-nav__wrapper">
+						<img src="img/logo-mobile-1.png" alt="логотип" class="page-nav__logo">
+						<img src="img/logo 2.png" alt="логотип" class="page-nav__text-logo">
+						<button class="page-nav__menu-button"></button>
+						<ul class="page-nav__menu-list menu-nav">
+							 <li class="menu-nav__item">
+									<a href="" class="menu-nav__link">главная</a>
+							 </li>
+							 <li class="menu-nav__item">
+									<a href="" class="menu-nav__link">каталог продукции</a>
+							 </li>
+							 <li class="menu-nav__item">
+									<a href="" class="menu-nav__link">подбор программы</a>
+							 </li>
+						</ul>
+				 </div>
+			</div>
+	 </nav>
+</header>
+
+   <main class="page-main">
+			<section class="page-main__program-data program-buying">
+				 <div class="container">
+				 <div class="program-buying__wrapper">
+						<h1 class="program-buying__heading heading"></h1>
+						<p class="program-buying__description"></p>
+						<form class="program-buying__form-section form-information" action="" method="get">
+							 <div class="form-information__pet-data information">
+									<p class="information__pet form-identity">
+										 <label class="form-identity__pet-label" for="pet-name" >имя:*</label>
+										 <input class="form-identity__pet-input" id="pet-name" type="text" name="name"
+														placeholder="барсик"
+										 >
+									</p>
+									<p class="form-information__pet form-identity">
+										 <label class="form-identity__pet-label" for="pet-weight" >вес (кг):*</label>
+										 <input class="form-identity__pet-input" id="pet-weight" type="number" name="weight" placeholder="7"
+										 >
+									</p>
+									<p class="form-information__pet form-identity">
+										 <label class="form-identity__pet-label" for="pet-age">возраст (лет)</label>
+										 <input class="form-identity__pet-input" id="pet-age" type="number" name="age" placeholder="7" >
+									</p>
+							 </div>
+							 
+							 <div class="form-information__goal information">
+									<p class="information__slimming form-identity">
+										 <label class="form-identity__goal-label" for="pet-slimming" >Похудение</label>
+										 <input class="form-identity__goal-input" id="pet-slimming" type="radio" name="goal" >
+									</p>
+									<p class="information__weight-gaining form-identity">
+										 <label class="form-identity__goal-label" for="weight-gaining" >Набор массы</label>
+										 <input class="form-identity__goal-input" id="weight-gaining" type="radio" name="goal" >
+									</p>
+									<p class="information__weight-gaining form-identity">
+										 <label class="form-identity__goal-label" for="unknown" >Не знаю (Нужен ваш совет)</label>
+										 <input class="form-identity__goal-input" id="unknown" type="radio" name="goal" >
+									</p>
+							 </div>
+							 
+							 <div class="form-information__feedback-owner information">
+									<h2 class="information__heading heading">Контактные данные (владельца кота)</h2>
+									<p class="information__mail form-identity">
+										 <label class="form-identity__item-label" for="mail">E-mail:*</label>
+										 <input class="form-identity__item-input" id="mail" type="email" name="email" placeholder="kuklachev@gmail.com">
+									</p>
+									<p class="information__phone form-identity">
+										 <label class="form-identity__owner-label" for="phone">E-mail:*</label>
+										 <input class="form-identity__owner-input" id="phone" type="number" name="phone-number"
+														placeholder="8 (960) 900-60-90">
+									</p>
+							 </div>
+							 
+							 <div class="form-information__comment information">
+									<h2 class="information__heading heading">Комментарий</h2>
+									<p class="information__comment form-identity">
+										 <label class="form-identity__comment-label" for="comment" ></label>
+										 <input class="form-identity__comment-input" id="comment" type="text" name="commentary"
+														placeholder="Расскажите обо всех повадках кота" >
+									</p>
+							 </div>
+							 
+							 <div class="form-information__supplements information">
+									<h2 class="information__heading heading">Дополнительно</h2>
+									<p class="information__supplements form-identity">
+										 <label for="sweetener" class="form-identity__constituent-label">сахарозаменитель</label>
+										 <input id="sweetener" type="checkbox" name="supplements" class="form-identity__constituent-input">
+									</p>
+									
+									<p class="information__supplements form-identity">
+										 <label for="water" class="form-identity__constituent-input">питьевая вода</label>
+										 <input id="water" type="checkbox" name="supplements" class="form-identity__constituent-input">
+									</p>
+									
+									<p class="information__supplements form-identity">
+										 <label for="milk" class="form-identity__constituent-input">молоко</label>
+										 <input id="milk" type="checkbox" name="supplements" class="form-identity__constituent-input">
+									</p>
+									
+									<p class="information__supplements form-identity">
+										 <label for="vitamins" class="form-identity__constituent-input">витамины</label>
+										 <input id="vitamins" type="checkbox" name="supplements" class="form-identity__constituent-input">
+									</p>
+							 </div>
+							 
+							 <button type="submit" class="form-information__submit">отправить заявку</button>
+							 <p class="form-information__remark">* — Обязательные поля</p>
+						</form>
+				 </div>
+			</div>
+			</section>
+			
+			<section class="page-main__cooperation invitation">
+				 <div class="container">
+						<div class="invitation__wrapper">
+							 <h2 class="invitation__heading heading">приглашаем к сотрудничеству дилеров!</h2>
+							 <p class="invitation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+						</div>
+				 </div>
+			</section>
+			
+			<section class="page-main__map location">
+				 <iframe src="" frameborder="0" class="location__headquarter"></iframe>
+			</section>
+	 </main>
+
+<footer class="page-footer">
+	 <div class="container">
+			<div class="page-footer_wrapper">
+				 <img src="img/logo 2.png" alt="логотип" class="page-footer__logo-text">
+				 <ul class="page-footer__social social-networks">
+						<li class="social-networks__vk">
+							 <a href="" class="social-networks__link"></a>
+						</li>
+						<li class="social-networks__insta">
+							 <a href="" class="social-networks__link"></a>
+						</li>
+						<li class="social-networks__facebook">
+							 <a href="" class="social-networks__link"></a>
+						</li>
+				 </ul>
+				 
+				 <div class="page-footer__logo-academy">
+						<a class="page-footer__logo-academy-link"
+							 href="https://htmlacademy.ru/">
+							 <img src="" alt="" class="page-footer__logo-academy-text">
+						</a>
+						<a class="page-footer__logo-academy-link"  href="https://htmlacademy.ru/">
+							 <img src="" alt="" class="page-footer__logo-academy-pic">
+						</a>
+				 </div>
+			</div>
+	 </div>
+</footer>
+</body>
+</html>
